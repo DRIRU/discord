@@ -4,7 +4,7 @@ from discord import app_commands
 import asyncio
 from discord.ext import commands
 import os
-TOKEN = 'MTEwNjk5ODgwMzAxNTQxNzg4Nw.GuWoRI.dUQubausTw9BccQpzjPPiZf4cPQQfE_cTFfN8k'
+TOKEN = ''
 intents = discord.Intents.default() 
 intents.message_content = True 
 client = commands.Bot(command_prefix="!", intents=intents)
