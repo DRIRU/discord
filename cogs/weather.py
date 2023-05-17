@@ -13,7 +13,7 @@ class Weather(commands.Cog):
     @app_commands.command(name="weather", description="shows weather")
     async def weather(self, interaction: discord.Interaction, city: str):
         url = "http://api.weatherapi.com/v1/current.json"
-        API_KEY = "b2ae2752a7c24604828155630231605"
+        API_KEY = ""
         params = {
             "key":API_KEY,
             "q": city,
