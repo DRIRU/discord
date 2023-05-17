@@ -1,11 +1,10 @@
 url = 'https://discord.com/api/oauth2/authorize?client_id=1106998803015417887&permissions=8&scope=bot'
 import discord 
-from discord import app_commands
 import asyncio
 from discord.ext import commands
 import os
 TOKEN = ''
-intents = discord.Intents.default() 
+intents = discord.Intents.all() 
 intents.message_content = True 
 client = commands.Bot(command_prefix="!", intents=intents)
 
